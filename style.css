@@ -1,0 +1,30 @@
+* {
+    font-family: serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: 72px;
+    background: #7fffd4;
+    color: black;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    height: 72px;
+    background: #eee;
+    color: tomato;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+

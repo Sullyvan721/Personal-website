@@ -10,21 +10,56 @@ body {
 }
 
 .header {
+    flex: 1;
     display: flex;
     height: 72px;
     background: #7fffd4;
     color: black;
     align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    background-color: white;
 }
 
 .footer {
     display: flex;
     height: 72px;
     background: #eee;
-    color: tomato;
+    color: green;
     margin-top: auto;
     align-items: center;
     justify-content: center;
+    font-size: x-large;
+    flex: 1;
 }
 
+.meaty-container {
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+}
 
+.meaty-cards {
+    flex: 1;
+    display: flex;
+}

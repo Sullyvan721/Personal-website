@@ -1,65 +1,41 @@
-* {
-    font-family: serif;
-}
-
 body {
-    min-height: 100vh;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-}
-
-.header {
-    flex: 1;
-    display: flex;
-    height: 72px;
-    background: #7fffd4;
-    color: black;
-    align-items: center;
-    justify-content: space-between;
-    font-size: x-large;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
-
-}
-
-a {
-    text-decoration: none;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-a:hover {
-    background-color: white;
-}
-
-.footer {
-    display: flex;
-    height: 72px;
-    background: #eee;
-    color: green;
-    margin-top: auto;
-    align-items: center;
-    justify-content: center;
-    font-size: x-large;
-    flex: 1;
-}
-
-.meaty-container {
-    flex: 1;
+    background-color: #1f2937;
     display: flex;
     flex-flow: column wrap;
-    flex: 1;
 }
 
-.meaty-cards {
-    flex: 1;
-    display: flex;
+
+main {
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #F9FAF8;
 }
+
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: auto;
+}
+.box {
+    justify-content: flex-end;
+    display: flex;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: wheat;
+}
+.hero {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+

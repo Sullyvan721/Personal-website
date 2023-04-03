@@ -2,8 +2,19 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
 }
 
+img {
+    max-width: 400px;
+    min-width: 350px;
+    max-height: 200px;
+    margin-left: 60px;
+}
+
+.container {
+    display: flex;
+}
 
 main {
     font-size: 48px;
@@ -21,21 +32,44 @@ main {
     align-items: flex-start;
     margin-bottom: auto;
 }
+
 .box {
-    justify-content: flex-end;
     display: flex;
     gap: 20px;
+    margin-right: 25%;
 }
+
 a {
+
     text-decoration: none;
 }
+
 a:visited {
     color: wheat;
 }
-.hero {
+
+.logo {
     font-size: 24px;
     color: #F9FAF8;
     padding: 0;
     margin: 0;
 }
 
+hero {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.bt {
+    border-radius: 5px;
+    padding: 6px 18px;
+    background-color: #3882F6;
+    color: white;
+}

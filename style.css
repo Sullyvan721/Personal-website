@@ -1,15 +1,20 @@
-.body {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
+html,body {
   min-height: 100vh;
+  overflow: auto;
+  
 }
 
 img {
   max-width: 400px;
   min-width: 350px;
   max-height: 200px;
-  margin-left: 110px;
+  margin-left: 8px;
+}
+.image {
+  max-width: 400px;
+  min-width: 350px;
+  max-height: 200px;
+  margin-left: 8px;
 }
 body {
   background-color: #1f2937;
@@ -19,7 +24,6 @@ body {
   justify-content: center;
 }
 .container2 {
-  display: flex;
   text-align: center;
 }
 
@@ -27,6 +31,8 @@ main {
   font-size: 48px;
   font-style: extra-bold;
   color: #f9faf8;
+  margin-bottom: 90px;
+  display: contents;
 }
 
 .header {
@@ -46,7 +52,7 @@ main {
 .cardfather {
   display: flex;
   gap: 20px;
-  flex-flow: wrap;
+  flex: 1;
 }
 a {
   font-size: 18px;

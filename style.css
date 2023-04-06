@@ -1,13 +1,14 @@
-html,body {
+body {
   min-height: 100vh;
   overflow: auto;
-  
+  background-color: #1f2937;
 }
 
 img {
-  max-width: 400px;
-  min-width: 350px;
-  max-height: 200px;
+  max-width: 200px;
+  min-width: 250px;
+  max-height: 150px;
+  min-height: 100px;
   margin-left: 8px;
 }
 .image {
@@ -16,15 +17,19 @@ img {
   max-height: 200px;
   margin-left: 8px;
 }
-body {
-  background-color: #1f2937;
-}
+
 .container1 {
   display: flex;
   justify-content: center;
 }
-.container2 {
+.c2 {
+  background-color: #f9faf8;
+}
+.c2 > h1 {
   text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
 }
 
 main {
@@ -54,6 +59,14 @@ main {
   gap: 20px;
   flex: 1;
 }
+.third {
+  background-color: #e5e7eb;
+}
+.third > p {
+  font-size: 36px;
+  font-style: light italic;
+  color: #1f2937;
+}
 a {
   font-size: 18px;
 
@@ -74,7 +87,6 @@ h1 {
 
 p {
   font-size: 18px;
-  color: #e5e7eb;
 }
 
 .bt {
@@ -83,7 +95,14 @@ p {
   background-color: #3882f6;
   color: white;
 }
+
+.lastone {
+  background-color: #3882f6;
+  text-align: center;
+}
 footer {
   background-color: #1f2937;
   text-align: center;
+  margin-top: auto;
+  color: #e5e7eb;
 }

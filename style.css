@@ -1,7 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   min-height: 100vh;
+  min-width: 320px;
   overflow: auto;
-  min-width: 940px;
   background-color: #1f2937;
   text-align: center;
 }
@@ -13,10 +18,9 @@ img {
   min-height: 100px;
   margin-left: 8px;
 }
-.image {
-  max-width: 400px;
-  min-width: 350px;
-  max-height: 200px;
+.image > img {
+  width: 15%;
+  object-fit: cover;
   margin-left: 8px;
 }
 
@@ -24,6 +28,18 @@ img {
   display: flex;
   justify-content: space-evenly;
   padding: 28px;
+}
+@media (max-width: 900px) {
+  .container1 {
+     {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .container1 .text {
+      margin-bottom: 2em;
+    }
+  }
 }
 .c2 {
   background-color: #f9faf8;
@@ -65,11 +81,16 @@ a {
   display: flex;
   gap: 20px;
   flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 .third > p {
   background-color: #e5e7eb;
   font-size: 36px;
   text-align: center;
+  padding: 4em;
 }
 
 a {
@@ -101,8 +122,10 @@ p {
   color: white;
 }
 
-.lastone {
+.cta-btt {
   background-color: #3882f6;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 footer {
